@@ -14,7 +14,7 @@ def key_for_min_value(name_hash)
       placeholder1[0] = key
     end
   end
-  return placeholder1[0]
+   placeholder1[0]
    
    
    
