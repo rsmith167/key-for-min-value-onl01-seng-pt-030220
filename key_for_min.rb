@@ -11,10 +11,10 @@ def key_for_min_value(name_hash)
   name_hash.each do |key, value|
     if placeholder2 > value
       placeholder2 = value
-      placeholder3 = key
+      placeholder1[0] = key
     end
   end
-  return placeholder3
+  return placeholder1[0]
    
    
    
